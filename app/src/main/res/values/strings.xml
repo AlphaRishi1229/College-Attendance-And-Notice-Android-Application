@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PILLAI ATTENDANCE AND NOTICE APPLICATION</string>
+    <string name="spinner_year">Select Year</string>
+    <string name="spinner_subject">Select Subject</string>
+    <string name="spinner_time">Select Time</string>
+    <string name="spinner_stream">Select Stream</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_attendance__update_">Attendance_Update_Activity</string>
+</resources>

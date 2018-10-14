@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceActivity">
+
+    <TextView
+        android:id="@+id/tvclass"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spnlecno"
+        android:layout_alignParentStart="true"
+        android:text="SEMESTER"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvFaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:text="FACULTY NAME"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvtime"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:text="LECTURE NO"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvstream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spnclass"
+        android:layout_alignParentStart="true"
+        android:text="STREAM"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spnclass"
+        android:layout_width="277dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/tvclass"
+        android:layout_alignParentEnd="true"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/spnlecno"
+        android:layout_width="273dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/tvtime"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:id="@+id/spnstream"
+        android:layout_width="279dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/tvstream"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnupdateattendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:text="Take Attendance"
+        android:textColor="@color/colorAccent"
+        android:textColorLink="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/TeacherName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvFaculty"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="105dp"
+        android:text="Faculty Name"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/lastlecchk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnupdateattendance"
+        android:layout_centerHorizontal="true"
+        android:text="MARK AS LAST LECTURE" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="202dp"
+        android:text="Today's Date:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginEnd="134dp"
+        android:text="DATE"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="189dp"
+        android:onClick="setDate"
+        android:text="SET DATE MANUALLY" />
+
+
+</RelativeLayout>

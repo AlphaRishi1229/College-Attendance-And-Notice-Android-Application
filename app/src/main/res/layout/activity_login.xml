@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/idno"
+            android:layout_width="326dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="134dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/etidno"
+                android:layout_width="417dp"
+                android:layout_height="51dp"
+                android:capitalize="characters"
+                android:focusable="auto"
+                android:hint="(ADMIN) Enter ID no."
+                android:inputType="textCapCharacters" />
+
+        </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/rollno"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_below="@+id/idno"
+                android:layout_marginBottom="341dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="211dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etrollno"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:hint="(STUDENT) Enter ROLL no." />
+
+            </android.support.design.widget.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/btnlogin"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rollno"
+            android:layout_marginTop="-341dp"
+            app:srcCompat="@drawable/button_login"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="296dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@+id/btnlogin"
+            android:background="@color/grey" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPCOMING NOTICES"
+            android:layout_below="@+id/divider"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/textView"
+            android:layout_height="2dp"
+            android:background="@color/grey" />
+
+        <ListView
+            android:id="@+id/list_notice"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/divider2"
+            android:layout_height="305dp"
+            android:divider="@color/grey"
+            android:dividerHeight="1dp" />
+
+        <ImageButton
+            android:id="@+id/qr_scan"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="33dp"
+            app:srcCompat="@drawable/qr_scan"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
