@@ -42,7 +42,7 @@ import java.util.Random;
 
 public class LoginActivity extends AppCompatActivity {
     TextInputEditText etrollno, etidno;
-    ImageButton btnlogin;
+    Button btnlogin;
     private ArrayList<NoticeItems> itemsArrayList;
     private NoticeAdapter noticeAdapter;
     private ListView listView;
@@ -84,7 +84,7 @@ public class LoginActivity extends AppCompatActivity {
         noticedata.execute("");
         itemsArrayList = new ArrayList<NoticeItems>();
 
-        btnlogin=(ImageButton)findViewById(R.id.btnlogin);
+        btnlogin=(Button)findViewById(R.id.btnlogin);
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
