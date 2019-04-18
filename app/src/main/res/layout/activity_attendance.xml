@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".AttendanceActivity">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_above="@+id/spnlecno"
         android:layout_alignParentStart="true"
         android:text="SEMESTER"
+        android:textColor="@color/colorAccent"
         android:textSize="16sp" />
 
     <TextView
@@ -23,6 +25,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="21dp"
         android:text="FACULTY NAME"
+        android:textColor="@color/colorAccent"
         android:textSize="16sp" />
 
     <TextView
@@ -33,6 +36,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="170dp"
         android:text="LECTURE NO"
+        android:textColor="@color/colorAccent"
         android:textSize="16sp" />
 
     <TextView
@@ -42,29 +46,36 @@
         android:layout_above="@+id/spnclass"
         android:layout_alignParentStart="true"
         android:text="STREAM"
+        android:textColor="@color/colorAccent"
         android:textSize="16sp" />
 
     <Spinner
         android:id="@+id/spnclass"
-        android:layout_width="277dp"
+        style="@style/mySpinnerItemStyle"
+        android:layout_width="279dp"
         android:layout_height="45dp"
         android:layout_alignBottom="@+id/tvclass"
         android:layout_alignParentEnd="true"
+        android:background="@color/darkOrange"
         android:visibility="visible" />
 
     <Spinner
         android:id="@+id/spnlecno"
-        android:layout_width="273dp"
+        style="@style/mySpinnerItemStyle"
+        android:layout_width="279dp"
         android:layout_height="45dp"
         android:layout_alignBottom="@+id/tvtime"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="@color/cardview_light_background" />
 
     <Spinner
         android:id="@+id/spnstream"
+        style="@style/mySpinnerItemStyle"
         android:layout_width="279dp"
         android:layout_height="45dp"
         android:layout_alignBottom="@+id/tvstream"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="@color/lightOrange" />
 
     <Button
         android:id="@+id/btnupdateattendance"
@@ -74,7 +85,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="96dp"
         android:text="Take Attendance"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/red"
         android:textColorLink="@color/colorAccent" />
 
     <TextView
@@ -85,6 +96,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="105dp"
         android:text="Faculty Name"
+        android:textColor="@color/darkOrange"
         android:textSize="18sp" />
 
     <CheckBox
@@ -101,19 +113,22 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="78dp"
+        android:layout_marginStart="46dp"
         android:layout_marginTop="202dp"
         android:text="Today's Date:"
+        android:textColor="@color/colorAccent"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tv_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/textView3"
-        android:layout_marginEnd="134dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="59dp"
         android:text="DATE"
+        android:textColor="@color/darkOrange"
         android:textSize="18sp"
         android:textStyle="italic" />
 

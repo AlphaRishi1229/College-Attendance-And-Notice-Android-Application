@@ -86,6 +86,8 @@ private String Stream_Id;
         SpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spnstream.setAdapter(SpinnerAdapter);
 
+        final View v = spnstream.getSelectedView();
+
         spnstream.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {

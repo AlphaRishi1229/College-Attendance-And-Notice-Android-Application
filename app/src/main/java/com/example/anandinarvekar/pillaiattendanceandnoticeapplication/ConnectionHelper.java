@@ -15,9 +15,9 @@ public class ConnectionHelper {
     @SuppressLint("NewApi")
     public Connection connection()
     {
-        DB = "collegesystem";
-        DBUserName = "SystemServerAdmin";
-        DBPassword = "Rishivg@2910";
+        DB = "collegesys";
+        DBUserName = "collegesyslogin";
+        DBPassword = "CollegeSysPass";
 
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
@@ -26,7 +26,7 @@ public class ConnectionHelper {
 
         try {
             Class.forName("net.sourceforge.jtds.jdbc.Driver");
-            ConnectionURL = "jdbc:jtds:sqlserver://collegemanagements.database.windows.net:1433"+";databaseName="+DB+";user="+DBUserName+";password="+DBPassword+";";
+            ConnectionURL = "jdbc:jtds:sqlserver://109.170.188.0:49170"+";databaseName="+DB+";user="+DBUserName+";password="+DBPassword+";";
             connection = DriverManager.getConnection(ConnectionURL);
         }
         catch (SQLException se)

@@ -7,10 +7,12 @@
 
     <android.support.v7.widget.CardView
         android:id="@+id/card_view"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/cardview_dark_background"
-        card_view:cardBackgroundColor="@color/cardview_light_background"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        card_view:cardBackgroundColor="@color/cardview_shadow_start_color"
         card_view:cardCornerRadius="5dp"
         card_view:cardElevation="7dp"
         card_view:cardUseCompatPadding="true">
@@ -18,7 +20,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:background="@color/cardview_light_background"
             android:longClickable="true"
             android:orientation="vertical"
             android:visibility="visible">

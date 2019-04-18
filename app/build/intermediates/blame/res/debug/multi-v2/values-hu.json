@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Rishi Vijay Gajelli\\Desktop\\android\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
+            "outputFile": "D:\\AndroidStudioProjects\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rishi Vijay Gajelli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8c46a2a62ae861d08098699e497f710b\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\Rishi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\bf78d0c53ed9571fc3492389094f43d8\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Rishi Vijay Gajelli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0cd006458a5bf043df86c3218f9525a8\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\Rishi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\6223ae1cded783265cf4fd5106638fab\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

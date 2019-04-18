@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Rishi Vijay Gajelli\\Desktop\\android\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "outputFile": "D:\\AndroidStudioProjects\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rishi Vijay Gajelli\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.9.aar\\0a27656118564b5e326a14eff05fa491\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "source": "C:\\Users\\Rishi\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.9.aar\\526b1d803929275ddfd2ed627b940946\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

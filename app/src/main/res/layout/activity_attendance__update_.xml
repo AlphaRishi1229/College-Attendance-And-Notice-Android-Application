@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".Attendance_Update_Activity">
 
 
@@ -16,6 +17,7 @@
         android:layout_marginStart="17dp"
         android:layout_marginTop="11dp"
         android:text="Roll No"
+        android:textColor="@color/red"
         android:textSize="16sp" />
 
     <TextView
@@ -25,16 +27,18 @@
         android:layout_alignTop="@+id/textView4"
         android:layout_centerHorizontal="true"
         android:text="Student Name"
+        android:textColor="@color/darkOrange"
         android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/textView4"
+        android:layout_alignParentEnd="true"
         android:layout_marginEnd="13dp"
         android:text="IsPresent?"
+        android:textColor="@color/viewfinder_border"
         android:textSize="16sp" />
 
     <View
@@ -50,17 +54,17 @@
         android:id="@+id/linear1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
         android:layout_below="@+id/divider3"
+        android:layout_alignParentStart="true"
         android:orientation="vertical">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/stu_recycle_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/divider3"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_below="@+id/divider3"
             android:choiceMode="multipleChoice"
             android:clickable="true"
             android:scrollbars="vertical"
@@ -69,7 +73,6 @@
         </android.support.v7.widget.RecyclerView>
 
     </LinearLayout>
-
 
 
 </RelativeLayout>

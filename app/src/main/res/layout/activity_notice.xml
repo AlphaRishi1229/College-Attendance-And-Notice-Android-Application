@@ -1,36 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
     tools:context=".NoticeActivity">
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/notice"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="97dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="134dp">
 
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/etnotice"
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/notice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="UPDATE NOTICE HERE" />
-    </android.support.design.widget.TextInputLayout>
+            android:layout_alignParentStart="true"
+            android:textColorHint="@color/cardview_light_background"
+            app:hintTextAppearance="@style/MyAppearance"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="134dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/etnotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/notice"
+                android:hint="UPDATE NOTICE HERE"
+                android:textColor="@color/colorAccent" />
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
 
 
-    <ImageButton
-        android:id="@+id/btnupdatenotice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="195dp"
-        app:srcCompat="@drawable/button_updatenotice" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/divider8"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnupdatenotice"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@color/cardview_shadow_start_color"
+            app:srcCompat="@drawable/update_notice_white" />
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/darkOrange" />
+
+        <View
+            android:id="@+id/divider8"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/lightOrange" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/notice_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 
 
-</RelativeLayout>
+</LinearLayout>

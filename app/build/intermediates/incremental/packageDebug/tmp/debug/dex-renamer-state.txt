@@ -1,13 +1,7 @@
-#Sun Oct 21 15:52:48 IST 2018
-path.3=classes.dex
-path.2=classes.dex
+#Thu Apr 18 15:32:34 IST 2019
+base.0=D\:\\AndroidStudioProjects\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
 path.1=classes.dex
-path.0=classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
-base.3=C\:\\Users\\Rishi Vijay Gajelli\\Desktop\\android\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
-base.2=C\:\\Users\\Rishi Vijay Gajelli\\Desktop\\android\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-base.1=C\:\\Users\\Rishi Vijay Gajelli\\Desktop\\android\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-base.0=C\:\\Users\\Rishi Vijay Gajelli\\Desktop\\android\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+base.1=D\:\\AndroidStudioProjects\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out

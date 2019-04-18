@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Rishi Vijay Gajelli\\Desktop\\android\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my\\values-my.xml",
+            "outputFile": "D:\\AndroidStudioProjects\\PILLAIATTENDANCEANDNOTICEAPPLICATION2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my\\values-my.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rishi Vijay Gajelli\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8c46a2a62ae861d08098699e497f710b\\res\\values-my\\values-my.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,319,436,529,641,769,847,926,1012,1135,1247,1349,1475,1586,1696,1856,1956",
-                        "endColumns": "108,104,116,92,111,127,77,78,85,122,111,101,125,110,109,159,99,83",
-                        "endOffsets": "209,314,431,524,636,764,842,921,1007,1130,1242,1344,1470,1581,1691,1851,1951,2035"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Rishi Vijay Gajelli\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0cd006458a5bf043df86c3218f9525a8\\res\\values-my\\values-my.xml",
+                    "source": "C:\\Users\\Rishi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\6223ae1cded783265cf4fd5106638fab\\res\\values-my\\values-my.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "2040",
                         "endColumns": "100",
                         "endOffsets": "2136"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\bf78d0c53ed9571fc3492389094f43d8\\res\\values-my\\values-my.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,319,436,529,641,769,847,926,1012,1135,1247,1349,1475,1586,1696,1856,1956",
+                        "endColumns": "108,104,116,92,111,127,77,78,85,122,111,101,125,110,109,159,99,83",
+                        "endOffsets": "209,314,431,524,636,764,842,921,1007,1130,1242,1344,1470,1581,1691,1851,1951,2035"
                     }
                 }
             ]
