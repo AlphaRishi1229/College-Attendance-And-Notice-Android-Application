@@ -79,7 +79,7 @@ private String Stream_Id;
 
         spnstream = (Spinner)findViewById(R.id.spnstream);
         List<String> stream_spin = new ArrayList<String>();
-        stream_spin.add("Bsc Computer Science");
+        stream_spin.add("Bsc Information Technology");
         stream_spin.add("B.M.M");
         stream_spin.add("B.M.S");
         ArrayAdapter<String> SpinnerAdapter = new ArrayAdapter<String>(AttendanceActivity.this, android.R.layout.simple_spinner_item, stream_spin);
@@ -92,7 +92,7 @@ private String Stream_Id;
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
-                if (spnstream.getSelectedItem().equals("Bsc Computer Science")) {
+                if (spnstream.getSelectedItem().equals("Bsc Information Technology")) {
                     setCsData();
                 }
                 else if(spnstream.getSelectedItem().equals("B.M.M")){
@@ -207,12 +207,12 @@ private String Stream_Id;
     {
         setStreamId streamID;
         ArrayList<setStreamId> CsStream = new ArrayList<>();
-        CsStream.add(new setStreamId("1","CS-First Semester"));
-        CsStream.add(new setStreamId("2","CS-Second Semester"));
-        CsStream.add(new setStreamId("3","CS-Third Semester"));
-        CsStream.add(new setStreamId("4","CS-Fourth Semester"));
-        CsStream.add(new setStreamId("5","CS-Fifth Semester"));
-        CsStream.add(new setStreamId("6","CS-Sixth Semester"));
+        CsStream.add(new setStreamId("1","IT-First Semester"));
+        CsStream.add(new setStreamId("2","IT-Second Semester"));
+        CsStream.add(new setStreamId("3","IT-Third Semester"));
+        CsStream.add(new setStreamId("4","IT-Fourth Semester"));
+        CsStream.add(new setStreamId("5","IT-Fifth Semester"));
+        CsStream.add(new setStreamId("6","IT-Sixth Semester"));
 
         ArrayAdapter<setStreamId> adapter = new ArrayAdapter<setStreamId>(AttendanceActivity.this,android.R.layout.simple_spinner_dropdown_item,CsStream);
         spnclass.setAdapter(adapter);
